@@ -1,0 +1,40 @@
+/*
+* default value reset
+*/
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: 游ゴシック, YuGothic, ヒラギノ角ゴ pron w3, hiragino kaku gothic pron, メイリオ, Meiryo, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(6, 143, 172);
+}
+
+a:hover {
+  color: rgb(138, 192, 205);
+  transition: all 0.3s ease;
+}

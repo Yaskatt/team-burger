@@ -1,0 +1,50 @@
+/*
+* header
+*/
+
+.header {
+  padding: 10px 0;
+  background: #5D4C3E;
+
+  h1,
+  a {
+    color: #EDEDED;
+  }
+
+  .row {
+    align-items: baseline;
+  }
+
+  &-nav {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      list-style: none;
+    }
+
+    li {
+      +li {
+        margin-left: 25px;
+      }
+    }
+  }
+
+  h1 {
+    text-align: center;
+
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    h1 {
+      text-align: left;
+    }
+  }
+}
