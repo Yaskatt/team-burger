@@ -18,7 +18,7 @@
 		<header id="header" class="header">
 			<div class="container">
 				<div class="row">
-					<h1 class="col-12 col-md-3"><a href="#">SAMY</a></h1>
+					<p class="h1 col-12 col-md-3"><a href="#">SAMY</a></p>
 					<nav class="header-nav col-12 col-md-9 flex-wrap">
 						<ul>
 							<li><a href="#">HOME</a></li>
