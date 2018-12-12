@@ -103,6 +103,13 @@ a:hover {
 .post h4 {
   margin-bottom: 0.5em;
 }
+
+/*
+* index.php
+*/
+/*
+* single.php
+*/
 .post-info {
   display: flex;
   flex-direction: column;
@@ -122,6 +129,9 @@ a:hover {
     flex-direction: row;
   }
 }
+/*
+* top.php
+*/
 /*
 * sidebar
 */
