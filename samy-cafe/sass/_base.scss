@@ -1,13 +1,29 @@
-$dark_brown: #5D4C3E;
-
-body, div, p, h1, h2, h3, h4, h5 img {
+/*
+* default value reset
+*/
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
   margin: 0;
   padding: 0;
 }
 
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 body {
-  font-family: "ヒラギノ角ゴ ProN", sans-serif;
-  color: $dark_brown;
+  background-color: #f9f9f9;
+  font-family: 游ゴシック, YuGothic, ヒラギノ角ゴ pron w3, hiragino kaku gothic pron, メイリオ, Meiryo, sans-serif;
 }
 
 a {
@@ -20,112 +36,5 @@ a:link {
 
 a:hover {
   color: rgb(138, 192, 205);
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
-
-/*
-* header
-*/
-#header {
-  text-align: center;
-  padding: 80px 10px;
-  background-image: url(images/jeremy-bishop-394202-unsplash.jpg);
-}
-
-/*
-* content
-*/
-#content {
-  width: 80%;
-  margin: 50px;
-  color: $dark_brown;
-}
-
-  h2 {
-    color: $dark_brown;
-  }
-
-ul {
-  list-style: none;
-}
-
-.image {
-  display: flex;
-  justify-content: center;
-}
-
-.news-banner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-  .news {
-    margin: 30px;
-  }
-
-  .banner {
-    padding: 100px 0px 50px 0px;
-  }
-
-.blog {
-  margin: 30px;
-}
-
-.blog-contents {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.blog-contents p {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  width: 200px;
-}
-
-.card {
-  border-radius: 1px;
-  box-shadow: 0px 2px 5px #ccc;
-}
-
-.card ul {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-/*
-* sidebar
-*/
-#sidebar {
-  float: right;
-  width: 25%;
-  margin: 50px 10px;
-}
-
-#sidebar ul {
-  list-style-type: none;
-}
-
-.sidebar-list {
-  margin: 30px;
-}
-
-/*
-* footer
-*/
-.clearfix {
-  clear: both;
-}
-
-#footer {
-  text-align: center;
-  padding: 80px 10px;
-  background-color: rgb(113, 113, 113);
-  color: rgb(255, 255, 255);
-  font-weight: 100;
 }
