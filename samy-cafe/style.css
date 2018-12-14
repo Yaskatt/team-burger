@@ -46,9 +46,12 @@ a:hover {
 .header {
   padding: 10px 0;
   background: #5D4C3E; }
-  .header h1,
+  .header .h1,
   .header a {
-    color: #EDEDED; }
+    color: #EDEDED;
+    font-family: 'Comfortaa', cursive; }
+  .header p {
+    margin-bottom: 0; }
   .header .row {
     align-items: baseline; }
   .header-nav ul {
@@ -58,13 +61,13 @@ a:hover {
     list-style: none; }
   .header-nav li + li {
     margin-left: 25px; }
-  .header h1 {
+  .header .h1 {
     text-align: center; }
-    .header h1 a:hover {
+    .header .h1 a:hover {
       text-decoration: none; }
 
 @media (min-width: 768px) {
-  .header h1 {
+  .header .h1 {
     text-align: left; } }
 /*
 * content
@@ -78,11 +81,16 @@ a:hover {
   .post p,
   .post li {
     margin-bottom: 1em; }
-  .post h2 {
+  .post h1 {
     padding: 0 20px 15px 0; }
+  .post h2,
   .post h3,
   .post h4 {
     margin-bottom: .5em; }
+  .post h2 {
+    font-size: 1.75rem; }
+  .post h3 {
+    font-size: 1.5rem; }
 
 /*
 * index.php
@@ -121,7 +129,7 @@ p {
 .post-date, .post-category {
   margin-right: 15px; }
 
-.eyecatch img {
+.post-thumbnail img {
   width: 100%;
   max-width: 100%;
   height: auto; }

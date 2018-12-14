@@ -17,12 +17,19 @@
     margin-bottom: 1em;
   }
 
-  h2 {
+  h1 {
     padding: 0 20px 15px 0;
   }
 
+  h2,
   h3,
   h4 {
     margin-bottom: .5em;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
 }
